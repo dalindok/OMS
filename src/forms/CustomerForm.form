@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="forms.CustomerForm">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="15" bottom="20" right="15"/>
+    <constraints>
+      <xy x="20" y="20" width="511" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-5246726"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="af1b2" binding="panelTitle" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="true" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5246726"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="389c7" class="javax.swing.JLabel" binding="lblTitle">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="20" style="1"/>
+              <text value="Customer Info"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="87b8f" binding="panelData" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="7f42e" class="javax.swing.JTable" binding="tblData">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-196640"/>
+              <selectionBackground color="-2431745"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="95ed1" binding="panelControls" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="20" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-526086"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f1cf4" class="javax.swing.JLabel" binding="lblName">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="AcadEref" size="14" style="0"/>
+              <text value="Name:"/>
+            </properties>
+          </component>
+          <vspacer id="8fc4f">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="96602" class="javax.swing.JLabel" binding="lblContact">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="AcadEref" size="14" style="0"/>
+              <text value="Contact:"/>
+            </properties>
+          </component>
+          <component id="79c9c" class="javax.swing.JLabel" binding="lblDistrict">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="AcadEref" size="14" style="0"/>
+              <text value="District:"/>
+            </properties>
+          </component>
+          <component id="9b035" class="javax.swing.JLabel" binding="lblCity">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="AcadEref" size="14" style="0"/>
+              <text value="City:"/>
+            </properties>
+          </component>
+          <component id="37cc0" class="javax.swing.JTextField" binding="txtName">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="5b570" class="javax.swing.JTextField" binding="txtContact">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="97211" class="javax.swing.JTextField" binding="txtDistrict">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="7cae9" class="javax.swing.JTextField" binding="txtCity">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <grid id="25939" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="bd4b" class="javax.swing.JButton" binding="btnCancel">
+                <constraints/>
+                <properties>
+                  <background color="-737286"/>
+                  <font name="AcadEref" size="14" style="0"/>
+                  <text value="Back"/>
+                </properties>
+              </component>
+              <component id="538b1" class="javax.swing.JButton" binding="btnCreate">
+                <constraints/>
+                <properties>
+                  <background color="-6822481"/>
+                  <font size="14" style="0"/>
+                  <text value="Create"/>
+                </properties>
+              </component>
+              <component id="e55f8" class="javax.swing.JButton" binding="btnUpdate">
+                <constraints/>
+                <properties>
+                  <background color="-8985127"/>
+                  <font size="14" style="0"/>
+                  <text value="Update"/>
+                </properties>
+              </component>
+              <component id="ac8c8" class="javax.swing.JButton" binding="btnDelete">
+                <constraints/>
+                <properties>
+                  <background color="-1737098"/>
+                  <font name="AcadEref" size="14" style="0"/>
+                  <text value="Delete"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="fd47a" class="javax.swing.JLabel" binding="lblID">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="AcadEref" size="14" style="0"/>
+              <text value="Customer ID:"/>
+            </properties>
+          </component>
+          <component id="90fcb" class="javax.swing.JTextField" binding="txtID">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

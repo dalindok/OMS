@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="forms.ProductForm">
+  <grid id="27dc6" binding="Mainpanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="509" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="8db21" binding="panelTitle" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-5246726"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="c5047" class="javax.swing.JLabel" binding="lblProduct">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="20" style="1"/>
+              <text value="Product"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="aa9e0" binding="panelData" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="367cc" class="javax.swing.JTable" binding="tblData">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-196640"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="d6797" binding="panelControl" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-526086"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="92f31" class="javax.swing.JLabel" binding="lblProductID">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="AcadEref" size="14" style="0"/>
+              <text value="ProductID: "/>
+            </properties>
+          </component>
+          <component id="6c758" class="javax.swing.JLabel" binding="lblCateID">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="AcadEref" size="14" style="0"/>
+              <text value="CateID: "/>
+            </properties>
+          </component>
+          <component id="f662c" class="javax.swing.JLabel" binding="lblName">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="AcadEref" size="14" style="0"/>
+              <text value="Name: "/>
+            </properties>
+          </component>
+          <component id="ca71" class="javax.swing.JLabel" binding="lblPrice">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="AcadEref" size="14" style="0"/>
+              <text value="Price:"/>
+            </properties>
+          </component>
+          <component id="ec8c0" class="javax.swing.JTextField" binding="txtProductID">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="c1757" class="javax.swing.JComboBox" binding="cboCateID">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="3a9b" class="javax.swing.JTextField" binding="txtName">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="98977" class="javax.swing.JTextField" binding="txtPrice">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="d6306" class="javax.swing.JLabel" binding="lblUpdate">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="AcadEref" size="14" style="0"/>
+              <text value="Update At:"/>
+            </properties>
+          </component>
+          <grid id="e5ee0" binding="panelButton" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2431745"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="dbe0c" class="javax.swing.JButton" binding="btnCancel">
+                <constraints/>
+                <properties>
+                  <background color="-722262"/>
+                  <font name="AcadEref" size="12" style="0"/>
+                  <text value="Back"/>
+                </properties>
+              </component>
+              <component id="b9464" class="javax.swing.JButton" binding="btnUpdate">
+                <constraints/>
+                <properties>
+                  <background color="-6822481"/>
+                  <font name="AcadEref" size="12" style="0"/>
+                  <text value="Update"/>
+                </properties>
+              </component>
+              <component id="42ae0" class="javax.swing.JButton" binding="btnCreate">
+                <constraints/>
+                <properties>
+                  <background color="-8985127"/>
+                  <font name="AcadEref" size="12" style="0"/>
+                  <text value="Create"/>
+                </properties>
+              </component>
+              <component id="69bd5" class="javax.swing.JButton" binding="btnDelete">
+                <constraints/>
+                <properties>
+                  <background color="-1745576"/>
+                  <font name="AcadEref" size="12" style="0"/>
+                  <text value="Delete"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="aea0f" class="javax.swing.JLabel" binding="lblDescription">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="AcadEref" size="14" style="0"/>
+              <text value="Description:"/>
+            </properties>
+          </component>
+          <component id="50584" class="javax.swing.JTextArea" binding="txtADescription">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="5a3f" class="javax.swing.JTextField" binding="txtDate">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="forms.OrderListForm">
+  <grid id="27dc6" binding="Mainpanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="513" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-5246726"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="a5a83" binding="pamelTitle" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="30" left="10" bottom="20" right="10"/>
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-5246726"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f1078" class="javax.swing.JLabel" binding="lblTitle">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="20" style="1"/>
+              <text value="Order List"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="60991" binding="panelData" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="e529a" class="javax.swing.JTable" binding="tblData">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-2431745"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="50f6e" binding="panelButton" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-2431745"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d80cb" class="javax.swing.JButton" binding="btnBackToManu">
+            <constraints/>
+            <properties>
+              <background color="-737286"/>
+              <font name="AcadEref" size="12" style="0"/>
+              <horizontalAlignment value="0"/>
+              <text value="Back to Manu"/>
+            </properties>
+          </component>
+          <component id="a70db" class="javax.swing.JButton" binding="btnConfirm">
+            <constraints/>
+            <properties>
+              <background color="-6822481"/>
+              <font name="AcadEref" size="12" style="0"/>
+              <text value="Confirm"/>
+            </properties>
+          </component>
+          <component id="e947e" class="javax.swing.JButton" binding="btnComplete">
+            <constraints/>
+            <properties>
+              <background color="-8274459"/>
+              <font name="AcadEref" size="12" style="0"/>
+              <text value="Complete"/>
+            </properties>
+          </component>
+          <component id="662be" class="javax.swing.JButton" binding="btnCancel">
+            <constraints/>
+            <properties>
+              <background color="-337211"/>
+              <font name="AcadEref" size="12" style="0"/>
+              <text value="Cancel"/>
+            </properties>
+          </component>
+          <component id="aacfc" class="javax.swing.JButton" binding="btnDetail">
+            <constraints/>
+            <properties>
+              <background color="-722262"/>
+              <font name="AcadEref" size="12" style="0"/>
+              <text value="View Detail"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
